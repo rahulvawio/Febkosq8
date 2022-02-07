@@ -1,4 +1,4 @@
-<h1 align="center">Hello<img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px"> I'm Febin Koshy Philip <img alt="Avatar" src="https://user-images.githubusercontent.com/33223665/152873609-839a5c3d-50ca-4787-8a11-bf7cceb36fc4.png" height="30px"/> </h1>
+<h1 align="center">Hello<img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px"> I'm Febin Koshy Philip <img alt="Avatar" src="Avatar_Febkosq8.png" height="40px"/> </h1>
 
 <!--
 **febkosq8/febkosq8** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.-->
