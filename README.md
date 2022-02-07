@@ -149,3 +149,5 @@
   <img align="center" src="https://github-readme-stats.anuraghazra1.vercel.app/api?username=febkosq8&show_icons=true" />
   <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=febkosq8&" alt="febkosq8" />
 </div>
+
+[![Analytics](https://ga-beacon.appspot.com/G-P4QXTHXRXE/github.com/Naereen/badges/README.md)](https://GitHub.com/febkosq8)
