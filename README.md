@@ -18,7 +18,7 @@
 
 - 💬 Ask me about anything, Except Maths :sweat_smile:
 
-- 👨‍💻 Life Hack: Learn new tech :fire: and share what you have learned :tada:
+- 👨‍💻 Life Hack: Save time by using hotkeys in your workflow
 
 - ⚡ Fun fact: I spend a good amount of my time playing games
 
