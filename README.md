@@ -1,12 +1,15 @@
-<h1 align="center">Hello<img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px"> I'm Febin Koshy Philip</h1>
+<h1 align="center">Hello<img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px"> I'm Febin Koshy Philip <img alt="Avatar" src="https://user-images.githubusercontent.com/33223665/152873609-839a5c3d-50ca-4787-8a11-bf7cceb36fc4.png" height="30px"/> </h1>
 
 <!--
 **febkosq8/febkosq8** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.-->
  <br/>
 
+
+
+
 ## 👨🏻‍💻 About Me:
 
-- 🙋‍♂️ All about me is at **[My Website](https://www.febkosq8.me/)**
+- 🙋‍♂️ I blog random tech stuff at **[febkosq8.me](https://www.febkosq8.me/)**
 
 - 🔭 I’m currently working on `Something Intresting`.
 
@@ -127,7 +130,13 @@
  
 ## ❤️ Let's get connected:
 
-<p><a href="https://www.febkosq8.me/" target="_blank"><img alt="Github" src="https://img.shields.io/badge/febkosq8.me-9146FF.svg?&style=for-the-badge&logo=appveyor&logoColor=white" height="30px" /></a> <a href="https://twitter.com/febkosq8" target="_blank"><img alt="Twitter" src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white"  height="30px"/></a> <a href="https://www.linkedin.com/in/febkosq8/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"  height="30px"/></a> <a href="https://www.febkosq8.me/" target="_blank"><img alt="Blog" src="https://img.shields.io/badge/Blog-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white"  height="30px"/></a> <a href="https://www.instagram.com/febkosq8/" target="_blank"><img alt="Instagram" src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"  height="30px"/></a>
+<p><a href="https://www.febkosq8.me/" target="_blank"><img alt="Github" src="https://img.shields.io/badge/febkosq8.me-9146FF.svg?&style=for-the-badge&logo=appveyor&logoColor=white" height="30px" /></a>
+<a href="https://twitter.com/febkosq8" target="_blank"><img alt="Twitter" src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white"  height="30px"/></a>
+<a href="https://www.linkedin.com/in/febkosq8/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"  height="30px"/></a>
+<a href="https://www.febkosq8.me/" target="_blank"><img alt="Blog" src="https://img.shields.io/badge/Blog-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white"  height="30px"/></a>
+<a href="https://www.instagram.com/febkosq8/" target="_blank"><img alt="Instagram" src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"  height="30px"/></a>
+<a href="https://steamcommunity.com/id/febkosq8" target="_blank"><img alt="Steam" src="https://img.shields.io/badge/steam-%23000000.svg?style=for-the-badge&logo=steam&logoColor=white"  height="30px"/></a>
+<a href="https://www.youtube.com/c/Febkosq8DoesStuff" target="_blank"><img alt="YouTube" src="https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white"  height="30px"/></a>
 </p>
 
 ## 🤝 Support Me:
