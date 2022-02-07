@@ -147,5 +147,5 @@
 
 <div align="center">
   <img align="center" src="https://github-readme-stats.anuraghazra1.vercel.app/api?username=febkosq8&show_icons=true" />
-  <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=febkosq8&" alt="febkosq8" />
+  <!--<img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=febkosq8&" alt="febkosq8" />-->
 </div>
