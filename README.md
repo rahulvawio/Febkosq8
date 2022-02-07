@@ -17,7 +17,7 @@
 
 - 👯 I’m looking to collaborate for `Dev Projects`
 
-- 🤔 I’m looking for help with `CyberSecurity internships`
+- 🤔 I’m looking for internship/job in `CyberSecurity and related Domains`
 
 - 💬 Ask me about anything, Except Maths :sweat_smile:
 
