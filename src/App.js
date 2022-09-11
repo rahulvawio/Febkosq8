@@ -11,12 +11,11 @@ import Socials from "./components/Socials";
 function App() {
   return (
     <div
-      className="App"
+      className="App pt-4"
       data-bs-spy="scroll"
       data-bs-target="#navbar-febkosq8"
       data-bs-root-margin="0px 0px -40%"
       data-bs-smooth-scroll="true"
-      class="scrollspy-example bg-light p-3 rounded-2"
       tabindex="0"
     >
       <div className="header">
