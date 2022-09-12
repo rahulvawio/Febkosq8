@@ -7,47 +7,47 @@ export default function Header() {
   return (
     <div className="header">
       <nav id="navbar-febkosq8" className="navbar fixed-top bg-light py-2">
-        <a class="navbar-brand px-2" href="/">
+        <a className="navbar-brand px-2" href="/">
           Febkosq8
         </a>
-        <ul class="nav nav-pills">
-          <li class="nav-item">
-            <a class="nav-link" href="#Intro">
+        <ul className="nav nav-pills">
+          <li className="nav-item">
+            <a className="nav-link" href="#Intro">
               Intro
             </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#AboutMe">
+          <li className="nav-item">
+            <a className="nav-link" href="#AboutMe">
               About Me
             </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#Languages">
+          <li className="nav-item">
+            <a className="nav-link" href="#Languages">
               Languages & Frameworks
             </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#Services">
+          <li className="nav-item">
+            <a className="nav-link" href="#Services">
               Services
             </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#Platforms">
+          <li className="nav-item">
+            <a className="nav-link" href="#Platforms">
               Platforms
             </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#Projects">
+          <li className="nav-item">
+            <a className="nav-link" href="#Projects">
               Projects
             </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#Gaming">
+          <li className="nav-item">
+            <a className="nav-link" href="#Gaming">
               Gaming
             </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#Socials">
+          <li className="nav-item">
+            <a className="nav-link" href="#Socials">
               Socials
             </a>
           </li>

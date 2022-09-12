@@ -20,7 +20,7 @@ function App() {
       data-bs-target="#navbar-febkosq8"
       data-bs-root-margin="0px 0px -40%"
       data-bs-smooth-scroll="true"
-      tabindex="0"
+      tabIndex="0"
     >
       <div className="header">
         <Header />
