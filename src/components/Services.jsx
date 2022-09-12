@@ -1,13 +1,12 @@
 import React from "react";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
-import { faHandPeace, faAddressCard } from "@fortawesome/free-solid-svg-icons";
+import { faPersonDotsFromLine } from "@fortawesome/free-solid-svg-icons";
 export default function Services() {
   return (
-    <section align="left" className="px-2" id="Services">
+    <section align="left" className="Section px-2" id="Services">
       <h2 className="display-1" align="center">
-        Services <FontAwesomeIcon icon={faAddressCard} color="black" />
+        Services <FontAwesomeIcon icon={faPersonDotsFromLine} color="black" />
       </h2>
 
       <h4>

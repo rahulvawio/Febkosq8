@@ -6,12 +6,15 @@ import {
   faInstagram,
   faBlogger,
 } from "@fortawesome/free-brands-svg-icons";
-import { faEnvelope, faAddressCard } from "@fortawesome/free-solid-svg-icons";
+import {
+  faEnvelope,
+  faSquareShareNodes,
+} from "@fortawesome/free-solid-svg-icons";
 export default function Socials() {
   return (
-    <section align="left" className="px-2" id="Socials">
+    <section align="left" className="Section px-2" id="Socials">
       <h2 className="display-1" align="center">
-        Socials <FontAwesomeIcon icon={faAddressCard} color="black" />
+        Socials <FontAwesomeIcon icon={faSquareShareNodes} color="black" />
       </h2>
 
       <h4>

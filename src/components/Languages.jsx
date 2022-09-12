@@ -2,13 +2,13 @@ import React from "react";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-import { faHandPeace, faAddressCard } from "@fortawesome/free-solid-svg-icons";
+import { faTerminal } from "@fortawesome/free-solid-svg-icons";
 export default function Languages() {
   return (
-    <section align="left" className="px-2" id="Languages">
+    <section align="left" className="Section px-2" id="Languages">
       <h2 className="display-1" align="center">
         Languages & Frameworks{" "}
-        <FontAwesomeIcon icon={faAddressCard} color="black" />
+        <FontAwesomeIcon icon={faTerminal} color="black" />
       </h2>
 
       <h4>

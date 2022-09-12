@@ -4,9 +4,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import { faHandPeace, faAddressCard } from "@fortawesome/free-solid-svg-icons";
 export default function Header() {
-  useEffect(() => {
-    document.title = "Febkosq8";
-  });
   return (
     <div className="header">
       <nav id="navbar-febkosq8" className="navbar fixed-top bg-light py-2">

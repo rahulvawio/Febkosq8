@@ -8,7 +8,11 @@ import Platforms from "./components/Platforms";
 import Projects from "./components/Projects";
 import Gaming from "./components/Gaming";
 import Socials from "./components/Socials";
+import React, { useEffect } from "react";
 function App() {
+  useEffect(() => {
+    document.title = "Febkosq8";
+  });
   return (
     <div
       className="App pt-4"
