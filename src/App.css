@@ -49,8 +49,8 @@
     transform: rotate(0);
   }
   75% {
-    -webkit-transform: rotate(40deg);
-    transform: rotate(40deg);
+    -webkit-transform: rotate(20deg);
+    transform: rotate(20deg);
   }
   100% {
     -webkit-transform: rotate(0);
@@ -71,15 +71,38 @@
     transform: rotate(0);
   }
   75% {
-    -webkit-transform: rotate(40deg);
-    transform: rotate(40deg);
+    -webkit-transform: rotate(20deg);
+    transform: rotate(20deg);
   }
   100% {
     -webkit-transform: rotate(0);
     transform: rotate(0);
   }
 }
-.Section {
+.projectItem {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  margin: 0.5rem;
+  border-style: outset;
+}
+.projectTitle {
+  justify-self: center;
+}
+.projectButton {
+  align-items: center;
+  justify-content: center;
+}
+.projectImage {
+  width: 25rem;
+  height: 15rem;
+  border-style: double;
+}
+
+.section {
   height: 100vh;
   display: flex;
   flex-direction: column;

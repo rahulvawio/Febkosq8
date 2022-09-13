@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTerminal } from "@fortawesome/free-solid-svg-icons";
 export default function Languages() {
   return (
-    <section align="left" className="Section px-2" id="Languages">
+    <section align="left" className="section px-2" id="Languages">
       <h2 className="display-1" align="center">
         Languages & Frameworks{" "}
         <FontAwesomeIcon icon={faTerminal} color="black" />
@@ -14,29 +14,24 @@ export default function Languages() {
       <h4>
         <div className="blockquote">Highly Experienced </div>
         <img
-          src="https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white"
-          alt="C++"
-          title="C++"
+          src="https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white"
+          alt="C"
+          title="C"
         />{" "}
         <img
           src="https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white"
           alt="C++"
           title="C++"
-        />{" "}
-        <img
-          src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white"
-          alt="Node.js"
-          title="Node.js"
-        />{" "}
-        <img
-          src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"
-          alt="React"
-          title="React"
         />{" "}
         <img
           src="https://img.shields.io/badge/-Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white"
           alt="Arduino"
           title="Arduino"
+        />{" "}
+        <img
+          src="https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white"
+          alt="Markdown"
+          title="Markdown"
         />{" "}
         <br />
         <br />
@@ -52,9 +47,14 @@ export default function Languages() {
           title="JavaScript"
         />{" "}
         <img
-          src="https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white"
-          alt="Markdown"
-          title="Markdown"
+          src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white"
+          alt="Node.js"
+          title="Node.js"
+        />{" "}
+        <img
+          src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"
+          alt="React"
+          title="React"
         />{" "}
         <img
           src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white"

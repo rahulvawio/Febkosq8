@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHandPeace, faAddressCard } from "@fortawesome/free-solid-svg-icons";
 export default function Intro() {
   return (
-    <section className="Section px-2" id="Intro">
+    <section className="section px-2" id="Intro">
       <div className="Intro">
         <h1 className="display-1" align="center">
           Hello{" "}

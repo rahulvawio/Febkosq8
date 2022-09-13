@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHandPeace, faAddressCard } from "@fortawesome/free-solid-svg-icons";
 export default function About() {
   return (
-    <section align="left" className="Section px-2" id="AboutMe">
+    <section align="left" className="section px-2" id="AboutMe">
       <h2 className="display-1" align="center">
         About Me <FontAwesomeIcon icon={faAddressCard} color="black" />
       </h2>

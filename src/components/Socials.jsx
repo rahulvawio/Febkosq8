@@ -12,7 +12,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 export default function Socials() {
   return (
-    <section align="left" className="Section px-2" id="Socials">
+    <section align="left" className="section px-2" id="Socials">
       <h2 className="display-1" align="center">
         Socials <FontAwesomeIcon icon={faSquareShareNodes} color="black" />
       </h2>
@@ -24,37 +24,37 @@ export default function Socials() {
             href="https://github.com/febkosq8 "
             className="ms-2 btn-outline-dark btn"
           >
-            <FontAwesomeIcon icon={faGithub} color="black" /> GitHub
+            <FontAwesomeIcon icon={faGithub} /> GitHub
           </a>
           <a
             href="https://www.instagram.com/febkosq8/ "
             className="ms-2 btn-outline-dark btn"
           >
-            <FontAwesomeIcon icon={faInstagram} color="black" /> Instagram
+            <FontAwesomeIcon icon={faInstagram} /> Instagram
           </a>
           <a
             href="mailto: febkosq8@yahoo.com"
             className="ms-2 btn-outline-dark btn"
           >
-            <FontAwesomeIcon icon={faEnvelope} color="black" /> Email
+            <FontAwesomeIcon icon={faEnvelope} /> Email
           </a>
           <a
             href="http://www.febkosq8.tk/ "
             className="ms-2 btn-outline-dark btn"
           >
-            <FontAwesomeIcon icon={faBlogger} color="black" /> Blog
+            <FontAwesomeIcon icon={faBlogger} /> Blog
           </a>
           <a
             href="https://www.instagram.com/febkosq8/ "
             className="ms-2 btn-outline-dark btn"
           >
-            <FontAwesomeIcon icon={faInstagram} color="black" /> Instagram
+            <FontAwesomeIcon icon={faInstagram} /> Instagram
           </a>
           <a
             href="https://www.instagram.com/febkosq8/ "
             className="ms-2 btn-outline-dark btn"
           >
-            <FontAwesomeIcon icon={faInstagram} color="black" /> Instagram
+            <FontAwesomeIcon icon={faInstagram} /> Instagram
           </a>
         </div>
       </h4>

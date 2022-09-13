@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGear } from "@fortawesome/free-solid-svg-icons";
 export default function Platforms() {
   return (
-    <section align="left" className="Section px-2" id="Platforms">
+    <section align="left" className="section px-2" id="Platforms">
       <h2 className="display-1" align="center">
         Platforms <FontAwesomeIcon icon={faGear} color="black" />
       </h2>

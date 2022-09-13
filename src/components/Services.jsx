@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPersonDotsFromLine } from "@fortawesome/free-solid-svg-icons";
 export default function Services() {
   return (
-    <section align="left" className="Section px-2" id="Services">
+    <section align="left" className="section px-2" id="Services">
       <h2 className="display-1" align="center">
         Services <FontAwesomeIcon icon={faPersonDotsFromLine} color="black" />
       </h2>
