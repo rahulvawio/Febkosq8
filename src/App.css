@@ -79,6 +79,9 @@
     transform: rotate(0);
   }
 }
+#projects {
+  flex-direction: row;
+}
 .projectItem {
   display: flex;
   flex-direction: column;
