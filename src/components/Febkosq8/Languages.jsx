@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTerminal } from "@fortawesome/free-solid-svg-icons";
 export default function Languages() {
   return (
-    <section align="left" className="section px-2" id="Languages">
+    <section align="left" className="section px-2" id="languages">
       <h2 className="display-1" align="center">
         Languages & Frameworks{" "}
         <FontAwesomeIcon icon={faTerminal} color="black" />

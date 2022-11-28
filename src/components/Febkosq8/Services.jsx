@@ -4,12 +4,12 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPersonDotsFromLine } from "@fortawesome/free-solid-svg-icons";
 export default function Services() {
   return (
-    <section align="left" className="section px-2" id="Services">
+    <section align="left" className="section px-2 w-100" id="services">
       <h2 className="display-1" align="center">
         Services <FontAwesomeIcon icon={faPersonDotsFromLine} color="black" />
       </h2>
 
-      <h4>
+      <h4 className="w-75">
         <div className="blockquote">Regular Usage </div>
         <img
           src="https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white"

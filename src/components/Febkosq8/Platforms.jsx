@@ -5,12 +5,12 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGear } from "@fortawesome/free-solid-svg-icons";
 export default function Platforms() {
   return (
-    <section align="left" className="section px-2" id="Platforms">
+    <section align="left" className="section px-2 w-100 d-flex flex-column justify-content-center align-items-center" id="platforms">
       <h2 className="display-1" align="center">
         Platforms <FontAwesomeIcon icon={faGear} color="black" />
       </h2>
 
-      <h4>
+      <h4 className="w-75">
         <div className="blockquote">Regular Usage </div>
         <img
           src="https://img.shields.io/badge/Reddit-%23FF4500.svg?style=for-the-badge&logo=Reddit&logoColor=white"

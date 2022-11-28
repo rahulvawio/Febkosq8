@@ -1,8 +1,4 @@
-import React, { useEffect } from "react";
-
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
-import { faHandPeace, faAddressCard } from "@fortawesome/free-solid-svg-icons";
+import React from "react";
 export default function Header() {
   return (
     <div className="header">
@@ -11,43 +7,43 @@ export default function Header() {
           Febkosq8
         </a>
         <ul className="nav nav-pills">
-          <li className="nav-item">
-            <a className="nav-link" href="#Intro">
+          <li className="nav-item ">
+            <a className="nav-link" href="#intro">
               Intro
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#AboutMe">
+            <a className="nav-link" href="#aboutMe">
               About Me
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#Languages">
+            <a className="nav-link" href="#languages">
               Languages & Frameworks
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#Services">
+            <a className="nav-link" href="#services">
               Services
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#Platforms">
+            <a className="nav-link" href="#platforms">
               Platforms
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#Projects">
+            <a className="nav-link" href="#projects">
               Projects
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#Gaming">
+            <a className="nav-link" href="#gaming">
               Gaming
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#Socials">
+            <a className="nav-link" href="#socials">
               Socials
             </a>
           </li>

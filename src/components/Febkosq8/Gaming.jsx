@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGamepad } from "@fortawesome/free-solid-svg-icons";
 export default function Gaming() {
   return (
-    <section align="left" className="section px-2" id="Gaming">
+    <section align="left" className="section px-2" id="gaming">
       <h2 className="display-1" align="center">
         Gaming <FontAwesomeIcon icon={faGamepad} color="black" />
       </h2>
