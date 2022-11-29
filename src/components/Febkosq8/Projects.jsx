@@ -1,8 +1,8 @@
 import React from "react";
-import gstImage from "../../assets/GStatTracker.jpeg";
-import cryptoGifImage from "../../assets/CryptoGIF.png";
-import javaCryptoMessengerImage from "../../assets/jcm.png";
-import jappanImage from "../../assets/jdb.png";
+import gstImage from "../../assets/Febkosq8/GStatTracker.jpeg";
+import cryptoGifImage from "../../assets/Febkosq8/CryptoGIF.png";
+import javaCryptoMessengerImage from "../../assets/Febkosq8/jcm.png";
+import jappanImage from "../../assets/Febkosq8/jdb.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faListCheck } from "@fortawesome/free-solid-svg-icons";
