@@ -5,10 +5,12 @@ import {
   faGithub,
   faInstagram,
   faBlogger,
+  faDiscord,
 } from "@fortawesome/free-brands-svg-icons";
 import {
   faEnvelope,
   faSquareShareNodes,
+  faFilePdf,
 } from "@fortawesome/free-solid-svg-icons";
 export default function Socials() {
   return (
@@ -19,30 +21,58 @@ export default function Socials() {
 
       <h4>
         <div className="blockquote">
-          You can find me on
+          Know more
+          <br />
           <a
-            href="https://github.com/febkosq8 "
+            href="https://github.com/febkosq8"
+            target="_blank"
+            rel="noreferrer"
             className="ms-2 btn-outline-dark btn"
           >
             <FontAwesomeIcon icon={faGithub} /> GitHub
           </a>
           <a
-            href="https://www.instagram.com/febkosq8/ "
+            href="https://drive.google.com/file/d/1zwQyTgVGklY2cdqoIK_QhESIPULzu_4A/view?usp=share_link"
+            target="_blank"
+            rel="noreferrer"
             className="ms-2 btn-outline-dark btn"
           >
-            <FontAwesomeIcon icon={faInstagram} /> Instagram
+            <FontAwesomeIcon icon={faFilePdf} /> CV
           </a>
           <a
-            href="mailto: febkosq8@yahoo.com"
-            className="ms-2 btn-outline-dark btn"
-          >
-            <FontAwesomeIcon icon={faEnvelope} /> Email
-          </a>
-          <a
-            href="http://www.febkosq8.tk/ "
+            href="http://www.febkosq8.tk/"
+            target="_blank"
+            rel="noreferrer"
             className="ms-2 btn-outline-dark btn"
           >
             <FontAwesomeIcon icon={faBlogger} /> Blog
+          </a>
+        </div>
+        <div className="blockquote">
+          Contact me through <br />
+          <a
+            href="mailto: febkosq8@yahoo.com"
+            target="_blank"
+            rel="noreferrer"
+            className="ms-2 btn-outline-dark btn"
+          >
+            <FontAwesomeIcon icon={faEnvelope} /> febkosq8@yahoo.com
+          </a>
+          <a
+            href="https://discord.gg/rhk7STH5py"
+            target="_blank"
+            rel="noreferrer"
+            className="ms-2 btn-outline-dark btn"
+          >
+            <FontAwesomeIcon icon={faDiscord} /> Febkosq8#8685
+          </a>
+          <a
+            href="https://www.instagram.com/febkosq8/"
+            target="_blank"
+            rel="noreferrer"
+            className="ms-2 btn-outline-dark btn"
+          >
+            <FontAwesomeIcon icon={faInstagram} /> Febkosq8
           </a>
         </div>
       </h4>

@@ -57,14 +57,19 @@ export default function Languages() {
           title="React"
         />{" "}
         <img
-          src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white"
-          alt="CSS3"
-          title="CSS3"
-        />{" "}
-        <img
           src="https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white"
           alt="Bootstrap"
           title="Bootstrap"
+        />{" "}
+        <img
+          src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"
+          alt="HTML"
+          title="HTML"
+        />{" "}
+        <img
+          src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white"
+          alt="CSS3"
+          title="CSS3"
         />{" "}
         <img
           src="https://img.shields.io/badge/Recharts-yellowgreen?style=for-the-badge"

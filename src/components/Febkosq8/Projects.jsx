@@ -11,16 +11,11 @@ export default function Projects() {
     {
       imgSrc: jappanImage,
       title: "Jappan - Discord Bot",
-      btn1Url: "https://github.com/febkosq8/Jappan_Discord_Bot",
-      btnName1: (
-        <>
-          View on
-          <FontAwesomeIcon className="ms-2" icon={faGithub} /> GitHub
-        </>
-      ),
-      btnName2: "Invite Bot",
-      bt2Url:
+      btnName1: "Invite Bot",
+      btn1Url:
         "https://discord.com/api/oauth2/authorize?client_id=732230135671029831&permissions=8&scope=applications.commands%20bot",
+      btnName2: "Know More",
+      btn2Url: "/Jappan",
     },
     {
       imgSrc: gstImage,
@@ -33,7 +28,7 @@ export default function Projects() {
         </>
       ),
       btnName2: "View Live Application",
-      bt2Url: "https://gstattracker.tk",
+      btn2Url: "https://gstattracker.tk",
     },
     {
       imgSrc: cryptoGifImage,
@@ -45,8 +40,8 @@ export default function Projects() {
           <FontAwesomeIcon className="ms-2" icon={faGithub} /> GitHub
         </>
       ),
-      btnName2: "View Live Application",
-      bt2Url: "",
+      btnName2: "",
+      btn2Url: "",
     },
     {
       imgSrc: javaCryptoMessengerImage,
@@ -58,8 +53,8 @@ export default function Projects() {
           <FontAwesomeIcon className="ms-2" icon={faGithub} /> GitHub
         </>
       ),
-      btnName2: "View Live Application",
-      bt2Url: "",
+      btnName2: "",
+      btn2Url: "",
     },
   ];
   return (
@@ -98,8 +93,8 @@ export default function Projects() {
                   ) : (
                     <></>
                   )}
-                  {item.bt2Url !== "" ? (
-                    <a href={item.bt2Url} className="btn-outline-dark btn">
+                  {item.btn2Url !== "" ? (
+                    <a href={item.btn2Url} className="btn-outline-dark btn">
                       {item.btnName2}
                     </a>
                   ) : (

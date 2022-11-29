@@ -9,21 +9,20 @@ import Projects from "../../components/Febkosq8/Projects";
 import Gaming from "../../components/Febkosq8/Gaming";
 import Socials from "../../components/Febkosq8/Socials";
 const Febkosq8 = () => {
-  console.log("Called Febkosq8");
   document.title = "Febkosq8";
 
   return (
-    <div
-      className="App pt-4"
-      data-bs-spy="scroll"
-      data-bs-target="#navbar-febkosq8"
-      data-bs-root-margin="0px 0px -40%"
-      data-bs-smooth-scroll="true"
-      tabindex="0"
-    >
+    <div className="App pt-4">
       <Header />
 
-      <div className="body-container">
+      <div
+        className="body-container"
+        data-bs-spy="scroll"
+        data-bs-target="#navbar-febkosq8"
+        data-bs-root-margin="0px 0px -40%"
+        data-bs-smooth-scroll="true"
+        tabIndex="0"
+      >
         <Intro />
         <About />
         <Languages />

@@ -3,8 +3,8 @@ export default function Header() {
   return (
     <div className="header">
       <nav id="navbar-jappan" className="navbar fixed-top bg-light py-2">
-        <a className="navbar-brand px-2" href="/">
-          Febkosq8 - Jappan
+        <a className="navbar-brand px-2" href="/Jappan">
+          Jappan
         </a>
         <ul className="nav nav-pills">
           <li className="nav-item">

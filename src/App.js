@@ -15,8 +15,9 @@ function App() {
         <Routes>
           <Route path="/" element={<Febkosq8 />} />
           <Route path="/Jappan" element={<Jappan />} />
+          <Route path="/Loading" element={<Loading />} />
           <Route path="/404" element={<Fail />} />
-          <Route path="*" element={<Loading />} />
+          <Route path="*" element={<Fail />} />
         </Routes>
       </Suspense>
     </Router>

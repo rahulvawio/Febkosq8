@@ -11,11 +11,13 @@ export default function Gaming() {
       </h2>
 
       <h4>
-        <img
-          src="https://img.shields.io/badge/steam-%23000000.svg?style=for-the-badge&logo=steam&logoColor=white"
-          alt="Steam"
-          title="Steam"
-        />{" "}
+        <a href="https://steamcommunity.com/id/febkosq8">
+          <img
+            src="https://img.shields.io/badge/steam-%23000000.svg?style=for-the-badge&logo=steam&logoColor=white"
+            alt="Steam"
+            title="Steam"
+          />{" "}
+        </a>
         <img
           src="https://img.shields.io/badge/epicgames-%23313131.svg?style=for-the-badge&logo=epicgames&logoColor=white"
           alt="Epic Games"

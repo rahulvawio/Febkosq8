@@ -1,9 +1,9 @@
+import "./Fail.css";
 import React from "react";
 import { Suspense, useState } from "react";
 import Loading from "./Loading";
-import omg from "../assets/omg.gif";
+import loadImg from "../assets/chikaFind.gif";
 const Fail = () => {
-  console.log("Called Fail");
   document.title = "404 | Febkosq8";
   const [count, setCount] = useState(5);
 
@@ -20,7 +20,7 @@ const Fail = () => {
     <div className="w-100 h-100 d-flex flex-column justify-content-center align-items-center">
       <Suspense fallback={<Loading />}>
         <img
-          src={omg}
+          src={loadImg}
           loading="lazy"
           alt=""
           style={{

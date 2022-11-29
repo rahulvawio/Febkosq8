@@ -12,6 +12,11 @@ export default function Services() {
       <h4 className="w-75">
         <div className="blockquote">Regular Usage </div>
         <img
+          src="https://img.shields.io/badge/Yahoo!-6001D2?style=for-the-badge&logo=Yahoo!&logoColor=white"
+          alt="Yahoo!"
+          title="Yahoo!"
+        />{" "}
+        <img
           src="https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white"
           alt="Cloudflare"
           title="Cloudflare"
@@ -27,54 +32,9 @@ export default function Services() {
           title="Google"
         />{" "}
         <img
-          src="https://img.shields.io/badge/Blogger-FF5722?style=for-the-badge&logo=blogger&logoColor=white"
-          alt="Blogger"
-          title="Blogger"
-        />{" "}
-        <img
-          src="https://img.shields.io/badge/Google%20Chrome-4285F4?style=for-the-badge&logo=GoogleChrome&logoColor=white"
-          alt="Google Chrome"
-          title="Google Chrome"
-        />{" "}
-        <img
-          src="https://img.shields.io/badge/Google%20Drive-4285F4?style=for-the-badge&logo=googledrive&logoColor=white"
-          alt="Google Drive"
-          title="Google Drive"
-        />{" "}
-        <img
           src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white"
           alt="MongoDB"
           title="MongoDB"
-        />{" "}
-        <img
-          src="https://img.shields.io/badge/adobe-%23FF0000.svg?style=for-the-badge&logo=adobe&logoColor=white"
-          alt="Adobe"
-          title="Adobe"
-        />{" "}
-        <img
-          src="https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white"
-          alt="Canva"
-          title="Canva"
-        />{" "}
-        <img
-          src="https://img.shields.io/badge/Insomnia-black?style=for-the-badge&logo=insomnia&logoColor=5849BE"
-          alt="Insomnia"
-          title="Insomnia"
-        />{" "}
-        <img
-          src="https://img.shields.io/badge/Microsoft-0078D4?style=for-the-badge&logo=microsoft&logoColor=white"
-          alt="Microsoft"
-          title="Microsoft"
-        />{" "}
-        <img
-          src="https://img.shields.io/badge/Microsoft_Office-D83B01?style=for-the-badge&logo=microsoft-office&logoColor=white"
-          alt="Microsoft Office"
-          title="Microsoft Office"
-        />{" "}
-        <img
-          src="https://img.shields.io/badge/Yahoo!-6001D2?style=for-the-badge&logo=Yahoo!&logoColor=white"
-          alt="Yahoo!"
-          title="Yahoo!"
         />{" "}
         <img
           src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"
@@ -110,24 +70,29 @@ export default function Services() {
           title="GitHub Actions"
         />{" "}
         <img
+          src="https://img.shields.io/badge/adobe-%23FF0000.svg?style=for-the-badge&logo=adobe&logoColor=white"
+          alt="Adobe"
+          title="Adobe"
+        />{" "}
+        <img
+          src="https://img.shields.io/badge/Microsoft_Office-D83B01?style=for-the-badge&logo=microsoft-office&logoColor=white"
+          alt="Microsoft Office"
+          title="Microsoft Office"
+        />{" "}
+        <img
           src="https://img.shields.io/badge/OneDrive-0078D4.svg?style=for-the-badge&logo=microsoftonedrive&logoColor=white"
           alt="OneDrive"
           title="OneDrive"
         />{" "}
         <img
-          src="https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=white"
-          alt="Adobe Photoshop"
-          title="Adobe Photoshop"
+          src="https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white"
+          alt="Canva"
+          title="Canva"
         />{" "}
         <img
-          src="https://img.shields.io/badge/Adobe%20Premiere%20Pro-9999FF.svg?style=for-the-badge&logo=Adobe%20Premiere%20Pro&logoColor=white"
-          alt="Adobe Premiere Pro"
-          title="Adobe Premiere Pro"
-        />{" "}
-        <img
-          src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white"
-          alt="Git"
-          title="Git"
+          src="https://img.shields.io/badge/Blogger-FF5722?style=for-the-badge&logo=blogger&logoColor=white"
+          alt="Blogger"
+          title="Blogger"
         />{" "}
       </h4>
     </section>
