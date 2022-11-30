@@ -22,7 +22,7 @@ export default function About() {
       <div>
         {" "}
         <p>
-          <FontAwesomeIcon icon={faBlog} color="black" /> Blog random tech stuff
+          <FontAwesomeIcon icon={faBlog} color="black" /> Blogging random tech stuff
           at
           <a
             href="http://www.febkosq8.tk/ "
@@ -67,7 +67,7 @@ export default function About() {
         </p>
         <p>
           <FontAwesomeIcon icon={faBriefcase} color="black" /> Looking for a job
-          as a Software Developer / IT Support Engineer.
+          as a Software Developer / IT Support Engineer
         </p>
         <p>
           <FontAwesomeIcon icon={faPersonCircleQuestion} color="black" /> Ask me

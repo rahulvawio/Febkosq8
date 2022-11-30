@@ -13,6 +13,18 @@ export default function Languages() {
 
       <h4>
         <div className="blockquote">Highly Experienced </div>
+        <a
+          href="https://github.com/febkosq8"
+          target="_blank"
+          rel="noreferrer"
+          className="ms-2 btn-outline-dark btn"
+        >
+          <img
+            src="https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white"
+            alt="C"
+            title="C"
+          />
+        </a>
         <img
           src="https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white"
           alt="C"

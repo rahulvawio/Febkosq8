@@ -4,14 +4,18 @@ import cryptoGifImage from "../../assets/Febkosq8/CryptoGIF.png";
 import javaCryptoMessengerImage from "../../assets/Febkosq8/jcm.png";
 import jappanImage from "../../assets/Febkosq8/jdb.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faDiscord } from "@fortawesome/free-brands-svg-icons";
 import { faListCheck } from "@fortawesome/free-solid-svg-icons";
 export default function Projects() {
   const projectItems = [
     {
       imgSrc: jappanImage,
       title: "Jappan - Discord Bot",
-      btnName1: "Invite Bot",
+      btnName1: (
+        <>
+          <FontAwesomeIcon icon={faDiscord} /> Invite
+        </>
+      ),
       btn1Url:
         "https://discord.com/api/oauth2/authorize?client_id=732230135671029831&permissions=8&scope=applications.commands%20bot",
       btnName2: "Know More",
