@@ -24,8 +24,15 @@
   scroll-snap-type: y mandatory;
   overflow: hidden;
   overflow-y: auto;
+  scroll-behavior: smooth;
 }
+
 .section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   scroll-snap-align: start;
 }
 @keyframes gradient {
@@ -89,14 +96,6 @@
 #Projects {
   flex-direction: row;
   height: 100%;
-}
-
-.section {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
 }
 
 .footer {
