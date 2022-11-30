@@ -19,50 +19,53 @@ export default function Features() {
     {
       title: " Music Playback",
       icon: <FontAwesomeIcon className="ms-2" icon={faMusic} />,
-      img1: MusicPlay1,
-      img1Title: "Play your favourite playlist",
-      img1Width: "30vh",
-      img1Ratio: 2.3,
-      img2: "",
-      img2Title: "",
-      img2Width: "30vh",
-      img2Ratio: 2.3,
-      img3: "",
-      img3Title: "",
-      img3Width: "30vh",
-      img3Ratio: 2.3,
+      img:[]
+      // img1: MusicPlay1,
+      // img1Title: "Play your favourite playlist",
+      // img1Width: "30vh",
+      // img1Ratio: 2.3,
+      // img2: "",
+      // img2Title: "",
+      // img2Width: "30vh",
+      // img2Ratio: 2.3,
+      // img3: "",
+      // img3Title: "",
+      // img3Width: "30vh",
+      // img3Ratio: 2.3,
     },
     {
       title: " Leveling System",
       icon: <FontAwesomeIcon className="ms-2" icon={faPersonArrowUpFromLine} />,
-      img1: Level1,
-      img1Title: "Know who all are active in a server",
-      img1Width: "35vh",
-      img1Ratio: 1,
-      img2: Level2,
-      img2Title: "Leveling up as you interact",
-      img2Width: "30vh",
-      img2Ratio: 2.3,
-      img3: "",
-      img3Title: "",
-      img3Width: "30vh",
-      img3Ratio: 2.3,
+      img:[
+        {
+          img:Level1,
+          title:"Know who all are active in a server",
+          ratio:"auto",
+          width:"20vw"
+        },{
+          img:Level2,
+          title:"Leveling up as you interact",
+          width:"20vw",
+          ratio:"auto"
+        }
+      ]
     },
     {
       title: " Moderation Tools",
       icon: <FontAwesomeIcon className="ms-2" icon={faGavel} />,
-      img1: Mod1,
-      img1Title: "Audit Events",
-      img1Width: "30vh",
-      img1Ratio: 2.3,
-      img2: Mod2,
-      img2Title: "Clear Messages",
-      img2Width: "30vh",
-      img2Ratio: 2.3,
-      img3: Mod3,
-      img3Title: "Member I-O Announcements",
-      img3Width: "30vh",
-      img3Ratio: 2.3,
+      img:[]
+      // img1: Mod1,
+      // img1Title: "Audit Events",
+      // img1Width: "30vh",
+      // img1Ratio: 2.3,
+      // img2: Mod2,
+      // img2Title: "Clear Messages",
+      // img2Width: "30vh",
+      // img2Ratio: 2.3,
+      // img3: Mod3,
+      // img3Title: "Member I-O Announcements",
+      // img3Width: "30vh",
+      // img3Ratio: 2.3,
     },
   ];
   return (
@@ -73,64 +76,27 @@ export default function Features() {
 
       {featureItems.map((item) => {
         return (
-          <div className="card m-1 p-2 b-3 d-flex flex-column align-items-center justify-content-center col-8">
-            <div className="d-flex flex-column align-items-center card-body">
-              <p className="card-title">
+          <div className="card text-bg-dark m-1 p-2 d-flex flex-column align-items-center justify-content-center col-md-6 col-sm-8">
+            <h3 className="card-title">
                 {item.icon}
                 {item.title}
-              </p>
+              </h3>
+            <div className="d-flex flex-column align-items-center card-body">
               <div
-                className=" gap-2 d-flex flex-row"
-                style={{ alignItems: "center", justifyContent: "center" }}
+                className=" gap-2 d-flex flex-row flex-wrap align-items-center justify-content-center"
               >
-                {item.img1 !== "" ? (
-                  <figure>
+                {item.img.map((img,index)=> <div className={`d-flex flex-row align-items-center w-100 justify-content-between ${index!==item.img.length-1&&"border-bottom"}  py-4`}>
+                    <h5 className="fw-light">{img.title}</h5>
                     <img
-                      src={item.img1}
+                      src={img.img}
                       className="card-img-top"
                       style={{
-                        width: item.img1Width,
-                        aspectRatio: item.img1Ratio,
+                        width: img.width,
+                        aspectRatio: img.ratio,
                       }}
-                      alt={item.img1Title}
+                      alt={img.title}
                     />
-                    <figcaption>{item.img1Title}</figcaption>
-                  </figure>
-                ) : (
-                  <></>
-                )}
-                {item.img2 !== "" ? (
-                  <figure>
-                    <img
-                      src={item.img2}
-                      className="card-img-top"
-                      style={{
-                        width: item.img2Width,
-                        aspectRatio: item.img2Ratio,
-                      }}
-                      alt={item.img2Title}
-                    />
-                    <figcaption>{item.img2Title}</figcaption>
-                  </figure>
-                ) : (
-                  <></>
-                )}
-                {item.img3 !== "" ? (
-                  <figure>
-                    <img
-                      src={item.img3}
-                      className="card-img-top"
-                      style={{
-                        width: item.img3Width,
-                        aspectRatio: item.img3Ratio,
-                      }}
-                      alt={item.img3Title}
-                    />
-                    <figcaption>{item.img3Title}</figcaption>
-                  </figure>
-                ) : (
-                  <></>
-                )}
+                  </div>)}
               </div>
             </div>
           </div>

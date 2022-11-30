@@ -60,6 +60,19 @@ export default function Projects() {
       btnName2: "",
       btn2Url: "",
     },
+    {
+      imgSrc: javaCryptoMessengerImage,
+      title: "Java Cryptographic Messenger",
+      btn1Url: "https://github.com/febkosq8/java_cryptographic_messenger",
+      btnName1: (
+        <>
+          View on
+          <FontAwesomeIcon className="ms-2" icon={faGithub} /> GitHub
+        </>
+      ),
+      btnName2: "",
+      btn2Url: "",
+    },
   ];
   return (
     <section
@@ -70,10 +83,18 @@ export default function Projects() {
       <h2 className="display-1" align="center" id="projects">
         Projects <FontAwesomeIcon icon={faListCheck} color="black" />
       </h2>
-      <div className="d-flex flex-row flex-wrap align-items-center justify-content-center w-100">
+      <div
+        className="feb-projects overflow-auto row gap-2 col-7"
+        style={{
+          height: "710px",
+        }}
+      >
         {projectItems.map((item) => {
           return (
-            <div className="card m-1 p-2 b-3 d-flex flex-column align-items-center justify-content-center col-4">
+            <div
+              className="card text-bg-dark d-flex pt-3 flex-column align-items-center justify-content-center col-5"
+              style={{ height: "350px", width: "450px" }}
+            >
               <img
                 src={item.imgSrc}
                 className="card-img-top"
@@ -90,14 +111,14 @@ export default function Projects() {
                   style={{ alignItems: "center", justifyContent: "center" }}
                 >
                   {item.btn1Url !== "" ? (
-                    <a href={item.btn1Url} className="btn-outline-dark btn">
+                    <a href={item.btn1Url} className="btn-outline-light btn">
                       {item.btnName1}
                     </a>
                   ) : (
                     <></>
                   )}
                   {item.btn2Url !== "" ? (
-                    <a href={item.btn2Url} className="btn-outline-dark btn">
+                    <a href={item.btn2Url} className="btn-outline-light btn">
                       {item.btnName2}
                     </a>
                   ) : (
