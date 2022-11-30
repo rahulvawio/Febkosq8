@@ -1,4 +1,3 @@
-import "./App.css";
 import React, { lazy, Suspense, useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Loading from "./components/Loading";

@@ -8,17 +8,17 @@ export default function Header() {
         </a>
         <ul className="nav nav-pills">
           <li className="nav-item">
-            <a className="nav-link" href="#About">
+            <a className="nav-link" href="#about">
               About
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#Features">
+            <a className="nav-link" href="#features">
               Features
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#Team">
+            <a className="nav-link" href="#team">
               Team
             </a>
           </li>

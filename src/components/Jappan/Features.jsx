@@ -66,8 +66,8 @@ export default function Features() {
     },
   ];
   return (
-    <section align="left" className="section px-2" id="Features">
-      <h2 className="display-1" align="center">
+    <section align="left" className="section px-2">
+      <h2 className="display-1" align="center" id="features">
         Features <FontAwesomeIcon icon={faLayerGroup} color="black" />
       </h2>
 

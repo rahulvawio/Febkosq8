@@ -61,10 +61,9 @@ export default function Projects() {
     <section
       align="left"
       className="section d-flex flex-column w-100"
-      id="projects"
       style={{ paddingTop: "40px" }}
     >
-      <h2 className="display-1" align="center">
+      <h2 className="display-1" align="center" id="projects">
         Projects <FontAwesomeIcon icon={faListCheck} color="black" />
       </h2>
       <div className="d-flex flex-row flex-wrap align-items-center justify-content-center w-100">

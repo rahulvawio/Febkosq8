@@ -1,6 +1,5 @@
 <!--
 **febkosq8/febkosq8** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.-->
- <br/>
 
 ## About Me
 
@@ -14,7 +13,4 @@
 
 ## 📊 My GitHub Data:
 
-<div align="center">
-  <img align="center" src="https://github-readme-stats.anuraghazra1.vercel.app/api?username=febkosq8&show_icons=true" />
-
-</div>
+<img align="center" src="https://github-readme-stats.anuraghazra1.vercel.app/api?username=febkosq8&show_icons=true" />

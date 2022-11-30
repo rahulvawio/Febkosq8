@@ -1,3 +1,4 @@
+import "./Febkosq8.css";
 import React from "react";
 import Header from "../../components/Febkosq8/Header";
 import Intro from "../../components/Febkosq8/Intro";
