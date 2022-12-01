@@ -3,6 +3,7 @@ import gstImage from "../../assets/Febkosq8/GStatTracker.jpeg";
 import cryptoGifImage from "../../assets/Febkosq8/CryptoGIF.png";
 import javaCryptoMessengerImage from "../../assets/Febkosq8/jcm.png";
 import jappanImage from "../../assets/Febkosq8/jdb.png";
+import CourseContentDelivery from "../../assets/Febkosq8/CourseContentDelivery.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faDiscord } from "@fortawesome/free-brands-svg-icons";
 import { faListCheck } from "@fortawesome/free-solid-svg-icons";
@@ -61,15 +62,10 @@ export default function Projects() {
       btn2Url: "",
     },
     {
-      imgSrc: javaCryptoMessengerImage,
-      title: "Java Cryptographic Messenger",
-      btn1Url: "https://github.com/febkosq8/java_cryptographic_messenger",
-      btnName1: (
-        <>
-          View on
-          <FontAwesomeIcon className="ms-2" icon={faGithub} /> GitHub
-        </>
-      ),
+      imgSrc: CourseContentDelivery,
+      title: "Course Content Delivery",
+      btn1Url: "",
+      btnName1: "",
       btnName2: "",
       btn2Url: "",
     },
