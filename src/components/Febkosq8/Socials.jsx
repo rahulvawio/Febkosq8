@@ -6,6 +6,7 @@ import {
   faInstagram,
   faBlogger,
   faDiscord,
+  faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
 import {
   faEnvelope,
@@ -32,6 +33,14 @@ export default function Socials() {
             <FontAwesomeIcon icon={faGithub} /> GitHub
           </a>
           <a
+            href="https://www.linkedin.com/in/febkosq8/"
+            target="_blank"
+            rel="noreferrer"
+            className="ms-2 btn-outline-dark btn"
+          >
+            <FontAwesomeIcon icon={faLinkedin} /> LinkedIn
+          </a>
+          <a
             href="https://drive.google.com/file/d/1zwQyTgVGklY2cdqoIK_QhESIPULzu_4A/view?usp=share_link"
             target="_blank"
             rel="noreferrer"
@@ -51,7 +60,7 @@ export default function Socials() {
         <div className="blockquote">
           Contact me through <br />
           <a
-            href="mailto: febkosq8@yahoo.com"
+            href="mailto:febkosq8@yahoo.com"
             target="_blank"
             rel="noreferrer"
             className="ms-2 btn-outline-dark btn"

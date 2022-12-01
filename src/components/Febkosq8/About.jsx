@@ -12,6 +12,7 @@ import {
   faPersonCircleQuestion,
   faHeadset,
   faHandSparkles,
+  faGlobe,
 } from "@fortawesome/free-solid-svg-icons";
 export default function About() {
   return (
@@ -20,10 +21,13 @@ export default function About() {
         About Me <FontAwesomeIcon icon={faAddressCard} color="black" />
       </h2>
       <div>
-        {" "}
         <p>
-          <FontAwesomeIcon icon={faBlog} color="black" /> Blogging random tech stuff
-          at
+          <FontAwesomeIcon icon={faGlobe} color="black" /> Pretty much go by
+          Febkosq8 everywhere online
+        </p>
+        <p>
+          <FontAwesomeIcon icon={faBlog} color="black" /> Blogging random tech
+          stuff at
           <a
             href="http://www.febkosq8.tk/ "
             className="ms-2 btn-outline-dark btn btn-sm"
@@ -32,8 +36,8 @@ export default function About() {
           </a>
         </p>
         <p>
-          <FontAwesomeIcon icon={faHouseLaptop} color="black" /> Currently
-          working on
+          <FontAwesomeIcon icon={faHouseLaptop} color="black" /> Actively
+          developing
           <a href="/Jappan" className="ms-2 btn-outline-dark btn btn-sm">
             Jappan
           </a>
