@@ -7,11 +7,14 @@ import {
   faBlogger,
   faDiscord,
   faLinkedin,
+  faAmazon,
+  faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
 import {
   faEnvelope,
   faSquareShareNodes,
   faFilePdf,
+  faHandHoldingDollar,
 } from "@fortawesome/free-solid-svg-icons";
 export default function Socials() {
   return (
@@ -24,6 +27,14 @@ export default function Socials() {
         <div className="blockquote">
           Know more
           <br />
+          <a
+            href="https://www.youtube.com/@Febkosq8DoesStuff"
+            target="_blank"
+            rel="noreferrer"
+            className="ms-2 btn-outline-dark btn"
+          >
+            <FontAwesomeIcon icon={faYoutube} /> YouTube
+          </a>
           <a
             href="https://github.com/febkosq8"
             target="_blank"
@@ -82,6 +93,25 @@ export default function Socials() {
             className="ms-2 btn-outline-dark btn"
           >
             <FontAwesomeIcon icon={faInstagram} /> Febkosq8
+          </a>
+        </div>
+        <div className="blockquote">
+          Support me <br />
+          <a
+            href="https://www.buymeacoffee.com/febkosq8"
+            target="_blank"
+            rel="noreferrer"
+            className="ms-2 btn-outline-dark btn"
+          >
+            <FontAwesomeIcon icon={faHandHoldingDollar} /> Buy me a Coffee
+          </a>
+          <a
+            href="https://www.amazon.in/?&_encoding=UTF8&tag=febkosq8-21&linkCode=ur2&linkId=6ca0201a93375f6dc35cf60102034cb3&camp=3638&creative=24630ffiliate"
+            target="_blank"
+            rel="noreferrer"
+            className="ms-2 btn-outline-dark btn"
+          >
+            <FontAwesomeIcon icon={faAmazon} /> Amazon.in Affiliate
           </a>
         </div>
       </h4>

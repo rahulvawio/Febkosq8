@@ -14,6 +14,7 @@ import {
   faHandSparkles,
   faGlobe,
 } from "@fortawesome/free-solid-svg-icons";
+import { faYoutube } from "@fortawesome/free-brands-svg-icons";
 export default function About() {
   return (
     <section align="left" className="section px-2" id="aboutMe">
@@ -33,6 +34,16 @@ export default function About() {
             className="ms-2 btn-outline-dark btn btn-sm"
           >
             febkosq8.tk
+          </a>
+        </p>
+        <p>
+          <FontAwesomeIcon icon={faYoutube} color="black" /> Uploading gameplay
+          montages at
+          <a
+            href="https://www.youtube.com/@Febkosq8DoesStuff "
+            className="ms-2 btn-outline-dark btn btn-sm"
+          >
+            Febkosq8 Does Stuff
           </a>
         </p>
         <p>
